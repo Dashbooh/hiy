@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+--local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
+local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
+NotifyLib.prompt('Dashware - Q To Lock', 'Loading..', 5)
+NotifyLib.prompt('Dashware', 'Son Them', 5)
+NotifyLib.prompt('Dashware', 'Leak and ur banned', 5)
+
+
+
+ local Window = Library:Create("Free DashWare Trial","Xnuoo#9090")
+
+local Tab1 = Window:Tab("Aimlocks",true)
+
+Tab1:Button("Fps Gui (setts already loaded in)",function(bool)
+ loadstring(game:HttpGet("https://pastebin.com/2SQjGwFH" ))() 
+end)
+
+Tab1:Button("Silent Aim",function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/2SQjGwFH"))()
+end)
+
+Tab1:Button("Dot Lock",function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/2SQjGwFH"))()
+end)
+
+local Tab2 = Window:Tab("Keybind to Close",true)
+
+Tab2:Keybind("Toggle",Enum.KeyCode.V,function()
+    Library:Toggle()
+end)
+
+local Tab3 = Window:Tab("Extra",true)
+
+Tab3:Button("yes i know this is skidded as shit but who cares 🤓🤓",function(bool)
+    loadstring(game:HttpGet("https://pastebin.com/2SQjGwFH"))()
+end)
+
+
+
